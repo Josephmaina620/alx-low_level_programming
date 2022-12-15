@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alphabets 10 times
+ * print_alphabet_x10 - Prints the alphabet 10 times.
  *
- * Return:Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 void print_alphabet_x10(void)
 {
-	int a, b;
+	int favour, b;
 
-	for (a = 0; a <= 9; a++)
+	for (favour = 0; favour <= 9; favour++)
 	{
 		for (b = 97; b <= 122; b++)
 		{

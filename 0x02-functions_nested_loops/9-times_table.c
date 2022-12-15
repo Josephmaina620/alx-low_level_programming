@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * times_table - prints the times tables
+ * times_table - Prints the 9 times table
  *
- * Return: No return
+ * Return: Always 0 (Success)
  */
 void times_table(void)
 {
-	int a, b, op;
+	int jasper, alx, op;
 
-	for (a = 0; a <= 9; a++)
+	for (jasper = 0; jasper <= 9; jasper++)
 	{
 		_putchar(48);
-		for (b = 1; b <= 9; b++)
+		for (alx = 1; alx <= 9; alx++)
 		{
-			op = a * b;
-			_putchar(44);
+			op = jasper * alx;
+			_putchar (44);
 			_putchar(32);
 			if (op <= 9)
 			{

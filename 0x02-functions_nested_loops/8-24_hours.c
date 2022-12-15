@@ -3,7 +3,7 @@
 /**
  * jack_bauer - Prints the minutes of a day
  *
- * Return: No return
+ * Return: no return
  */
 void jack_bauer(void)
 {
