@@ -1,1 +1,1 @@
-This is for static libraries
+My library read me file
